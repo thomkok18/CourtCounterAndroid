@@ -89,13 +89,4 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(scoreTeamA);
         displayForTeamB(scoreTeamB);
     }
-
-    /**
-     * Displays the given score for both teams.
-     */
-    public void displayReset(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.reset);
-        scoreView.setText(String.valueOf(score));
-
-    }
 }
